@@ -1,7 +1,10 @@
-# Authentication with Flask, React, and Docker
+# Flask Microservice
 
-[![pipeline status](https://gitlab.com/testdriven/flask-react-auth/badges/master/pipeline.svg)](https://gitlab.com/testdriven/flask-react-auth/commits/master)
-
-https://testdriven.io/courses/auth-flask-react/
-
-# Deploying a Flask and React Microservice to AWS ECS
+Simple Flask API for user sessions with
+admin panel. Built with Flask RestX. The
+API uses tokens to authenticate sessions. It
+allows client to register, login and refresh
+session. User passwords are encrypted using
+Bcrypt. The app is containerized using Docker
+and deployed to AWS. Integration tests built
+with pytest.
